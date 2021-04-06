@@ -1,0 +1,979 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing.Common" name="System.Drawing.Common, Version=4.0.2.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
+  <data name="textBox1.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Arial Rounded MT Bold, 25pt</value>
+  </data>
+  <assembly alias="System.Drawing.Primitives" name="System.Drawing.Primitives, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>24, 12</value>
+  </data>
+  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>826, 56</value>
+  </data>
+  <assembly alias="System.Private.CoreLib" name="System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e" />
+  <data name="textBox1.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
+    <value>textBox1</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="TextFactorial.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Arial, 25pt</value>
+  </data>
+  <data name="TextFactorial.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>24, 74</value>
+  </data>
+  <data name="TextFactorial.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>684, 55</value>
+  </data>
+  <data name="TextFactorial.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;TextFactorial.Name" xml:space="preserve">
+    <value>TextFactorial</value>
+  </data>
+  <data name="&gt;&gt;TextFactorial.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextFactorial.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TextFactorial.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="TextRoot.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Arial, 25pt</value>
+  </data>
+  <data name="TextRoot.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>24, 135</value>
+  </data>
+  <data name="TextRoot.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>684, 55</value>
+  </data>
+  <data name="TextRoot.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;TextRoot.Name" xml:space="preserve">
+    <value>TextRoot</value>
+  </data>
+  <data name="&gt;&gt;TextRoot.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextRoot.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TextRoot.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="ButtorFactorial.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 13.8pt</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ButtorFactorial.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ButtorFactorial.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>706, 74</value>
+  </data>
+  <data name="ButtorFactorial.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>144, 55</value>
+  </data>
+  <data name="ButtorFactorial.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>2</value>
+  </data>
+  <data name="ButtorFactorial.Text" xml:space="preserve">
+    <value>Factorial</value>
+  </data>
+  <data name="&gt;&gt;ButtorFactorial.Name" xml:space="preserve">
+    <value>ButtorFactorial</value>
+  </data>
+  <data name="&gt;&gt;ButtorFactorial.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtorFactorial.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ButtorFactorial.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="ButtonRoot.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 13.8pt</value>
+  </data>
+  <data name="ButtonRoot.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ButtonRoot.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>706, 135</value>
+  </data>
+  <data name="ButtonRoot.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>144, 55</value>
+  </data>
+  <data name="ButtonRoot.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>2</value>
+  </data>
+  <data name="ButtonRoot.Text" xml:space="preserve">
+    <value>Root</value>
+  </data>
+  <data name="&gt;&gt;ButtonRoot.Name" xml:space="preserve">
+    <value>ButtonRoot</value>
+  </data>
+  <data name="&gt;&gt;ButtonRoot.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonRoot.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ButtonRoot.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="Result.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 45pt, style=Bold</value>
+  </data>
+  <data name="Result.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>356, 200</value>
+  </data>
+  <data name="Result.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>494, 107</value>
+  </data>
+  <data name="Result.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>3</value>
+  </data>
+  <data name="Result.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;Result.Name" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="&gt;&gt;Result.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Result.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Result.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="butt1.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="butt1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>24, 315</value>
+  </data>
+  <data name="butt1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>77, 77</value>
+  </data>
+  <data name="butt1.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>4</value>
+  </data>
+  <data name="butt1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;butt1.Name" xml:space="preserve">
+    <value>butt1</value>
+  </data>
+  <data name="&gt;&gt;butt1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butt1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butt1.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="butt2.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="butt2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="butt2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>107, 315</value>
+  </data>
+  <data name="butt2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>77, 77</value>
+  </data>
+  <data name="butt2.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>4</value>
+  </data>
+  <data name="butt2.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;butt2.Name" xml:space="preserve">
+    <value>butt2</value>
+  </data>
+  <data name="&gt;&gt;butt2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butt2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butt2.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="butt3.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="butt3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="butt3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>190, 315</value>
+  </data>
+  <data name="butt3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>77, 77</value>
+  </data>
+  <data name="butt3.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>4</value>
+  </data>
+  <data name="butt3.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;butt3.Name" xml:space="preserve">
+    <value>butt3</value>
+  </data>
+  <data name="&gt;&gt;butt3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butt3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butt3.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="butt4.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="butt4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="butt4.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>273, 315</value>
+  </data>
+  <data name="butt4.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>77, 77</value>
+  </data>
+  <data name="butt4.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>4</value>
+  </data>
+  <data name="butt4.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;butt4.Name" xml:space="preserve">
+    <value>butt4</value>
+  </data>
+  <data name="&gt;&gt;butt4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butt4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butt4.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="butt5.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="butt5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="butt5.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>356, 315</value>
+  </data>
+  <data name="butt5.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>77, 77</value>
+  </data>
+  <data name="butt5.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>4</value>
+  </data>
+  <data name="butt5.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;butt5.Name" xml:space="preserve">
+    <value>butt5</value>
+  </data>
+  <data name="&gt;&gt;butt5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butt5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butt5.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="butt6.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="butt6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="butt6.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>441, 315</value>
+  </data>
+  <data name="butt6.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>77, 77</value>
+  </data>
+  <data name="butt6.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>4</value>
+  </data>
+  <data name="butt6.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;butt6.Name" xml:space="preserve">
+    <value>butt6</value>
+  </data>
+  <data name="&gt;&gt;butt6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butt6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butt6.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="butt7.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="butt7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="butt7.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>524, 315</value>
+  </data>
+  <data name="butt7.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>77, 77</value>
+  </data>
+  <data name="butt7.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>4</value>
+  </data>
+  <data name="butt7.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;butt7.Name" xml:space="preserve">
+    <value>butt7</value>
+  </data>
+  <data name="&gt;&gt;butt7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butt7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butt7.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="butt8.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="butt8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="butt8.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>607, 315</value>
+  </data>
+  <data name="butt8.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>77, 77</value>
+  </data>
+  <data name="butt8.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>4</value>
+  </data>
+  <data name="butt8.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;butt8.Name" xml:space="preserve">
+    <value>butt8</value>
+  </data>
+  <data name="&gt;&gt;butt8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butt8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butt8.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="butt9.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="butt9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="butt9.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>690, 315</value>
+  </data>
+  <data name="butt9.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>77, 77</value>
+  </data>
+  <data name="butt9.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>4</value>
+  </data>
+  <data name="butt9.Text" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;butt9.Name" xml:space="preserve">
+    <value>butt9</value>
+  </data>
+  <data name="&gt;&gt;butt9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butt9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butt9.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="butt0.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="butt0.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="butt0.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>773, 315</value>
+  </data>
+  <data name="butt0.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>77, 77</value>
+  </data>
+  <data name="butt0.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>4</value>
+  </data>
+  <data name="butt0.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;butt0.Name" xml:space="preserve">
+    <value>butt0</value>
+  </data>
+  <data name="&gt;&gt;butt0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butt0.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butt0.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="buttminus.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="buttminus.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttminus.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>190, 398</value>
+  </data>
+  <data name="buttminus.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>77, 77</value>
+  </data>
+  <data name="buttminus.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>4</value>
+  </data>
+  <data name="buttminus.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="&gt;&gt;buttminus.Name" xml:space="preserve">
+    <value>buttminus</value>
+  </data>
+  <data name="&gt;&gt;buttminus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttminus.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttminus.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="buttplus.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="buttplus.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttplus.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>273, 398</value>
+  </data>
+  <data name="buttplus.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>77, 77</value>
+  </data>
+  <data name="buttplus.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>4</value>
+  </data>
+  <data name="buttplus.Text" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="&gt;&gt;buttplus.Name" xml:space="preserve">
+    <value>buttplus</value>
+  </data>
+  <data name="&gt;&gt;buttplus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttplus.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttplus.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="buttmult.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="buttmult.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttmult.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>356, 398</value>
+  </data>
+  <data name="buttmult.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>77, 77</value>
+  </data>
+  <data name="buttmult.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>4</value>
+  </data>
+  <data name="buttmult.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="&gt;&gt;buttmult.Name" xml:space="preserve">
+    <value>buttmult</value>
+  </data>
+  <data name="&gt;&gt;buttmult.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttmult.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttmult.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="buttdiv.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="buttdiv.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttdiv.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>441, 398</value>
+  </data>
+  <data name="buttdiv.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>77, 77</value>
+  </data>
+  <data name="buttdiv.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>4</value>
+  </data>
+  <data name="buttdiv.Text" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="&gt;&gt;buttdiv.Name" xml:space="preserve">
+    <value>buttdiv</value>
+  </data>
+  <data name="&gt;&gt;buttdiv.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttdiv.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttdiv.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="buttpow.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="buttpow.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttpow.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>524, 398</value>
+  </data>
+  <data name="buttpow.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>77, 77</value>
+  </data>
+  <data name="buttpow.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>4</value>
+  </data>
+  <data name="buttpow.Text" xml:space="preserve">
+    <value>^</value>
+  </data>
+  <data name="&gt;&gt;buttpow.Name" xml:space="preserve">
+    <value>buttpow</value>
+  </data>
+  <data name="&gt;&gt;buttpow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttpow.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttpow.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="buttres.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="buttres.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttres.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>607, 398</value>
+  </data>
+  <data name="buttres.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>243, 77</value>
+  </data>
+  <data name="buttres.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>4</value>
+  </data>
+  <data name="buttres.Text" xml:space="preserve">
+    <value>RESULT</value>
+  </data>
+  <data name="&gt;&gt;buttres.Name" xml:space="preserve">
+    <value>buttres</value>
+  </data>
+  <data name="&gt;&gt;buttres.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttres.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttres.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="checkRoot.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="checkRoot.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>0, 302</value>
+  </data>
+  <data name="checkRoot.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>18, 17</value>
+  </data>
+  <data name="checkRoot.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>5</value>
+  </data>
+  <data name="checkRoot.Visible" type="System.Boolean, System.Private.CoreLib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;checkRoot.Name" xml:space="preserve">
+    <value>checkRoot</value>
+  </data>
+  <data name="&gt;&gt;checkRoot.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkRoot.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkRoot.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="checkBox2.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="checkBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBox2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>-247, -23</value>
+  </data>
+  <data name="checkBox2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>18, 17</value>
+  </data>
+  <data name="checkBox2.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>5</value>
+  </data>
+  <data name="checkBox2.Visible" type="System.Boolean, System.Private.CoreLib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;checkBox2.Name" xml:space="preserve">
+    <value>checkBox2</value>
+  </data>
+  <data name="&gt;&gt;checkBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBox2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="checkText.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="checkText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkText.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>0, 279</value>
+  </data>
+  <data name="checkText.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>18, 17</value>
+  </data>
+  <data name="checkText.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>5</value>
+  </data>
+  <data name="checkText.Visible" type="System.Boolean, System.Private.CoreLib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;checkText.Name" xml:space="preserve">
+    <value>checkText</value>
+  </data>
+  <data name="&gt;&gt;checkText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkText.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="checkFact.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="checkFact.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkFact.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>0, 256</value>
+  </data>
+  <data name="checkFact.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>18, 17</value>
+  </data>
+  <data name="checkFact.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>5</value>
+  </data>
+  <data name="checkFact.Visible" type="System.Boolean, System.Private.CoreLib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;checkFact.Name" xml:space="preserve">
+    <value>checkFact</value>
+  </data>
+  <data name="&gt;&gt;checkFact.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkFact.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkFact.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="buttclear.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="buttclear.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>24, 398</value>
+  </data>
+  <data name="buttclear.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>159, 76</value>
+  </data>
+  <data name="buttclear.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>6</value>
+  </data>
+  <data name="buttclear.Text" xml:space="preserve">
+    <value>CLEAR</value>
+  </data>
+  <data name="&gt;&gt;buttclear.Name" xml:space="preserve">
+    <value>buttclear</value>
+  </data>
+  <data name="&gt;&gt;buttclear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttclear.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttclear.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="open.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="open.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="open.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>24, 200</value>
+  </data>
+  <data name="open.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>77, 109</value>
+  </data>
+  <data name="open.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>4</value>
+  </data>
+  <data name="open.Text" xml:space="preserve">
+    <value>(</value>
+  </data>
+  <data name="&gt;&gt;open.Name" xml:space="preserve">
+    <value>open</value>
+  </data>
+  <data name="&gt;&gt;open.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;open.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;open.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="close.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="close.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="close.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>107, 200</value>
+  </data>
+  <data name="close.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>77, 109</value>
+  </data>
+  <data name="close.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>4</value>
+  </data>
+  <data name="close.Text" xml:space="preserve">
+    <value>)</value>
+  </data>
+  <data name="&gt;&gt;close.Name" xml:space="preserve">
+    <value>close</value>
+  </data>
+  <data name="&gt;&gt;close.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;close.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;close.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="space.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="space.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="space.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>190, 200</value>
+  </data>
+  <data name="space.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>77, 109</value>
+  </data>
+  <data name="space.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>4</value>
+  </data>
+  <data name="space.Text" xml:space="preserve">
+    <value>SP</value>
+  </data>
+  <data name="&gt;&gt;space.Name" xml:space="preserve">
+    <value>space</value>
+  </data>
+  <data name="&gt;&gt;space.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;space.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;space.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="buttcomma.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="buttcomma.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttcomma.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>273, 201</value>
+  </data>
+  <data name="buttcomma.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>77, 109</value>
+  </data>
+  <data name="buttcomma.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>4</value>
+  </data>
+  <data name="buttcomma.Text" xml:space="preserve">
+    <value>,</value>
+  </data>
+  <data name="&gt;&gt;buttcomma.Name" xml:space="preserve">
+    <value>buttcomma</value>
+  </data>
+  <data name="&gt;&gt;buttcomma.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttcomma.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttcomma.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing.Primitives">
+    <value>8, 20</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>869, 492</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
